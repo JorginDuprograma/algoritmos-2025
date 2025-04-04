@@ -12,7 +12,7 @@
     {
         printf("escolha o genero comedia(1) ou animacao(2)");
         scanf("%d",&leve);
-        if (leve <1 || >2){printf("escolha invalida")}
+        if (leve <1 || leve >2){printf("escolha invalida");}
 
         if (leve == 1){printf("assista ao filme: as branquelas");}
         else{printf("assista ao filme: toy story");}
