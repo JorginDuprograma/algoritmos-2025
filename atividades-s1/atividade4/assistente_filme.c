@@ -28,14 +28,14 @@
          printf("terror psicologico(1) ou natural(2): "); scanf("%d",&terror);
          if(terror <1 ||terror >2) {printf("valor invalido");}
          if(terror == 1){printf("assista ao filme: corra");}
-         else{printf("assista ao filme: invocacao do mal");}
+         if(terror == 2){printf("assista ao filme: invocacao do mal");}
         }
         if(intenso == 2)
         {
          printf("acao do tipo super heroi(1) ou realista(2): "); scanf("%d",&acao);
          if(acao <1 || acao >2){printf("valor invalido");} 
          if(acao == 1){printf("assista ao filme: incrivel hulk");}
-         else{printf("assista ao filme: mad max");}
+         if(acao == 2){printf("assista ao filme: mad max");}
         }    
     }
  return 0;  
