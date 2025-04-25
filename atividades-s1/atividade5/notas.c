@@ -46,6 +46,7 @@
     
     //nota que deseja ver
     printf("deseja ver a nota de algum aluno? sim(1) nao(2)");
+    scanf("%d",&simnao);
     if(simnao < 1 || simnao > 2){printf("o programa sera finalizado por escolher um numero invaliro");}
     if(simnao == 2){printf("programa encerado");}
     if(simnao == 1){printf("digite a posicao do aluno que deseja ver a nota (0 ate %d): ", alunos - 1);
