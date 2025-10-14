@@ -25,4 +25,4 @@ int PB (int * V, int N, int Chave ){
         else if (V[Meio] < Chave) Inicio = Meio + 1;
         else Fim = Meio -1;     
     }
-  
+}  
