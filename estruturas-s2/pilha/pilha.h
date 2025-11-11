@@ -16,13 +16,7 @@ typedef struct Pilha{
 Item * criarItem(int Chave);
 Pilha * criarPilha ();
 
-void empilha(Pilha * P, Item * I){
-
-    I->Antereior;
-    P->topo;
-    P->tamanho;
-
-}
-
+void empilhar(Pilha * P, Item * I);
+void desempilhar(Pilha * P);
 
 #endif
