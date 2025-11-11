@@ -3,7 +3,7 @@
 
  int main(int argc, char* argv[])
  {
- float triangulo,b,h
+ float triangulo,b,h;
 
 
 printf("digite a base: ");

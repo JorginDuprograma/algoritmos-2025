@@ -3,7 +3,7 @@
 #define Pi = 3.14
 int main(int argc, char* argv[])
 {
-    float b,circulo
+    float b,circulo;
 
     printf("digite o raio: ");
      scanf("%f", &b); 
